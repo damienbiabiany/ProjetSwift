@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3758DC4719C7251D65BF9EB1 /* Pods_Lyrikz_LyrikzUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A172F658B8C4C2D692AA86DC /* Pods_Lyrikz_LyrikzUITests.framework */; };
+		3CC14A20A8EE7AADC5B35FDD /* Pods_LyrikzTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29EDF211F5D6F5922B8F6978 /* Pods_LyrikzTests.framework */; };
+		3E5510CE634B022335B7CE3D /* Pods_Lyrikz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FDC9DD15AED21180DA7204C /* Pods_Lyrikz.framework */; };
 		5A5A957D25A705F300114E11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5A957C25A705F300114E11 /* AppDelegate.swift */; };
 		5A5A957F25A705F300114E11 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5A957E25A705F300114E11 /* SceneDelegate.swift */; };
 		5A5A958125A705F300114E11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5A958025A705F300114E11 /* ViewController.swift */; };
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		29EDF211F5D6F5922B8F6978 /* Pods_LyrikzTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LyrikzTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34FD7A9A44A967EEFAB9002D /* Pods-Lyrikz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lyrikz.debug.xcconfig"; path = "Target Support Files/Pods-Lyrikz/Pods-Lyrikz.debug.xcconfig"; sourceTree = "<group>"; };
 		5A5A957925A705F300114E11 /* Lyrikz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lyrikz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A5A957C25A705F300114E11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A5A957E25A705F300114E11 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +54,13 @@
 		5A5A959A25A705F400114E11 /* LyrikzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LyrikzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A5A959E25A705F400114E11 /* LyrikzUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyrikzUITests.swift; sourceTree = "<group>"; };
 		5A5A95A025A705F400114E11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BD5D92E5D4CD5E0185F3FF9 /* Pods-Lyrikz-LyrikzUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lyrikz-LyrikzUITests.debug.xcconfig"; path = "Target Support Files/Pods-Lyrikz-LyrikzUITests/Pods-Lyrikz-LyrikzUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7F5D19AC5ACCA3D4D509281D /* Pods-Lyrikz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lyrikz.release.xcconfig"; path = "Target Support Files/Pods-Lyrikz/Pods-Lyrikz.release.xcconfig"; sourceTree = "<group>"; };
+		8FDC9DD15AED21180DA7204C /* Pods_Lyrikz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lyrikz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A172F658B8C4C2D692AA86DC /* Pods_Lyrikz_LyrikzUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lyrikz_LyrikzUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB9EFE03A749904E95156850 /* Pods-Lyrikz-LyrikzUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lyrikz-LyrikzUITests.release.xcconfig"; path = "Target Support Files/Pods-Lyrikz-LyrikzUITests/Pods-Lyrikz-LyrikzUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BCBEDEA12492918B493F4192 /* Pods-LyrikzTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LyrikzTests.debug.xcconfig"; path = "Target Support Files/Pods-LyrikzTests/Pods-LyrikzTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DA407945D8BBCB543D944C22 /* Pods-LyrikzTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LyrikzTests.release.xcconfig"; path = "Target Support Files/Pods-LyrikzTests/Pods-LyrikzTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E5510CE634B022335B7CE3D /* Pods_Lyrikz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CC14A20A8EE7AADC5B35FDD /* Pods_LyrikzTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3758DC4719C7251D65BF9EB1 /* Pods_Lyrikz_LyrikzUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0555D4840CDFBC68B3DE8FE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FDC9DD15AED21180DA7204C /* Pods_Lyrikz.framework */,
+				A172F658B8C4C2D692AA86DC /* Pods_Lyrikz_LyrikzUITests.framework */,
+				29EDF211F5D6F5922B8F6978 /* Pods_LyrikzTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3AC1704E1F686607E4A65796 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34FD7A9A44A967EEFAB9002D /* Pods-Lyrikz.debug.xcconfig */,
+				7F5D19AC5ACCA3D4D509281D /* Pods-Lyrikz.release.xcconfig */,
+				7BD5D92E5D4CD5E0185F3FF9 /* Pods-Lyrikz-LyrikzUITests.debug.xcconfig */,
+				BB9EFE03A749904E95156850 /* Pods-Lyrikz-LyrikzUITests.release.xcconfig */,
+				BCBEDEA12492918B493F4192 /* Pods-LyrikzTests.debug.xcconfig */,
+				DA407945D8BBCB543D944C22 /* Pods-LyrikzTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		5A5A957025A705F300114E11 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +122,8 @@
 				5A5A959225A705F400114E11 /* LyrikzTests */,
 				5A5A959D25A705F400114E11 /* LyrikzUITests */,
 				5A5A957A25A705F300114E11 /* Products */,
+				3AC1704E1F686607E4A65796 /* Pods */,
+				0555D4840CDFBC68B3DE8FE0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,6 +176,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A5A95A325A705F400114E11 /* Build configuration list for PBXNativeTarget "Lyrikz" */;
 			buildPhases = (
+				10E798D10A7512409BAEC7CF /* [CP] Check Pods Manifest.lock */,
 				5A5A957525A705F300114E11 /* Sources */,
 				5A5A957625A705F300114E11 /* Frameworks */,
 				5A5A957725A705F300114E11 /* Resources */,
@@ -152,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A5A95A625A705F400114E11 /* Build configuration list for PBXNativeTarget "LyrikzTests" */;
 			buildPhases = (
+				77BF57769D0FA8803BB90755 /* [CP] Check Pods Manifest.lock */,
 				5A5A958B25A705F400114E11 /* Sources */,
 				5A5A958C25A705F400114E11 /* Frameworks */,
 				5A5A958D25A705F400114E11 /* Resources */,
@@ -170,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A5A95A925A705F400114E11 /* Build configuration list for PBXNativeTarget "LyrikzUITests" */;
 			buildPhases = (
+				0759C2604A6F49E0D1859DFB /* [CP] Check Pods Manifest.lock */,
 				5A5A959625A705F400114E11 /* Sources */,
 				5A5A959725A705F400114E11 /* Frameworks */,
 				5A5A959825A705F400114E11 /* Resources */,
@@ -252,6 +296,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0759C2604A6F49E0D1859DFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lyrikz-LyrikzUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		10E798D10A7512409BAEC7CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lyrikz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77BF57769D0FA8803BB90755 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LyrikzTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5A5A957525A705F300114E11 /* Sources */ = {
@@ -433,6 +546,7 @@
 		};
 		5A5A95A425A705F400114E11 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34FD7A9A44A967EEFAB9002D /* Pods-Lyrikz.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +565,7 @@
 		};
 		5A5A95A525A705F400114E11 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F5D19AC5ACCA3D4D509281D /* Pods-Lyrikz.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +584,7 @@
 		};
 		5A5A95A725A705F400114E11 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCBEDEA12492918B493F4192 /* Pods-LyrikzTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +606,7 @@
 		};
 		5A5A95A825A705F400114E11 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA407945D8BBCB543D944C22 /* Pods-LyrikzTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +628,7 @@
 		};
 		5A5A95AA25A705F400114E11 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BD5D92E5D4CD5E0185F3FF9 /* Pods-Lyrikz-LyrikzUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +648,7 @@
 		};
 		5A5A95AB25A705F400114E11 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB9EFE03A749904E95156850 /* Pods-Lyrikz-LyrikzUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
