@@ -18,6 +18,8 @@
 		5A5A958925A705F400114E11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A5A958725A705F400114E11 /* LaunchScreen.storyboard */; };
 		5A5A959425A705F400114E11 /* LyrikzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5A959325A705F400114E11 /* LyrikzTests.swift */; };
 		5A5A959F25A705F400114E11 /* LyrikzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5A959E25A705F400114E11 /* LyrikzUITests.swift */; };
+		A625E7D025A7240500D910D8 /* QueryStringInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A625E7CF25A7240500D910D8 /* QueryStringInfo.swift */; };
+		A6CB13FF25A75B0500DA5AA8 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CB13FE25A75B0500DA5AA8 /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		7F5D19AC5ACCA3D4D509281D /* Pods-Lyrikz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lyrikz.release.xcconfig"; path = "Target Support Files/Pods-Lyrikz/Pods-Lyrikz.release.xcconfig"; sourceTree = "<group>"; };
 		8FDC9DD15AED21180DA7204C /* Pods_Lyrikz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lyrikz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A172F658B8C4C2D692AA86DC /* Pods_Lyrikz_LyrikzUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lyrikz_LyrikzUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A625E7CF25A7240500D910D8 /* QueryStringInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryStringInfo.swift; sourceTree = "<group>"; };
+		A6CB13FE25A75B0500DA5AA8 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		BB9EFE03A749904E95156850 /* Pods-Lyrikz-LyrikzUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lyrikz-LyrikzUITests.release.xcconfig"; path = "Target Support Files/Pods-Lyrikz-LyrikzUITests/Pods-Lyrikz-LyrikzUITests.release.xcconfig"; sourceTree = "<group>"; };
 		BCBEDEA12492918B493F4192 /* Pods-LyrikzTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LyrikzTests.debug.xcconfig"; path = "Target Support Files/Pods-LyrikzTests/Pods-LyrikzTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DA407945D8BBCB543D944C22 /* Pods-LyrikzTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LyrikzTests.release.xcconfig"; path = "Target Support Files/Pods-LyrikzTests/Pods-LyrikzTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -111,7 +115,6 @@
 				BCBEDEA12492918B493F4192 /* Pods-LyrikzTests.debug.xcconfig */,
 				DA407945D8BBCB543D944C22 /* Pods-LyrikzTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -140,6 +143,9 @@
 		5A5A957B25A705F300114E11 /* Lyrikz */ = {
 			isa = PBXGroup;
 			children = (
+				A6CB13FD25A75AA300DA5AA8 /* Controllers */,
+				A6CB13FC25A75A9B00DA5AA8 /* Views */,
+				A6CB13FB25A75A8E00DA5AA8 /* Models */,
 				5A5A957C25A705F300114E11 /* AppDelegate.swift */,
 				5A5A957E25A705F300114E11 /* SceneDelegate.swift */,
 				5A5A958025A705F300114E11 /* ViewController.swift */,
@@ -147,6 +153,8 @@
 				5A5A958525A705F400114E11 /* Assets.xcassets */,
 				5A5A958725A705F400114E11 /* LaunchScreen.storyboard */,
 				5A5A958A25A705F400114E11 /* Info.plist */,
+				A625E7CF25A7240500D910D8 /* QueryStringInfo.swift */,
+				A6CB13FE25A75B0500DA5AA8 /* DetailsViewController.swift */,
 			);
 			path = Lyrikz;
 			sourceTree = "<group>";
@@ -167,6 +175,27 @@
 				5A5A95A025A705F400114E11 /* Info.plist */,
 			);
 			path = LyrikzUITests;
+			sourceTree = "<group>";
+		};
+		A6CB13FB25A75A8E00DA5AA8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A6CB13FC25A75A9B00DA5AA8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A6CB13FD25A75AA300DA5AA8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -372,8 +401,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A5A958125A705F300114E11 /* ViewController.swift in Sources */,
+				A625E7D025A7240500D910D8 /* QueryStringInfo.swift in Sources */,
 				5A5A957D25A705F300114E11 /* AppDelegate.swift in Sources */,
 				5A5A957F25A705F300114E11 /* SceneDelegate.swift in Sources */,
+				A6CB13FF25A75B0500DA5AA8 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
