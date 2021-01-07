@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A5A957D25A705F300114E11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5A957C25A705F300114E11 /* AppDelegate.swift */; };
+		5A5A957F25A705F300114E11 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5A957E25A705F300114E11 /* SceneDelegate.swift */; };
+		5A5A958125A705F300114E11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5A958025A705F300114E11 /* ViewController.swift */; };
+		5A5A958425A705F300114E11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A5A958225A705F300114E11 /* Main.storyboard */; };
+		5A5A958625A705F400114E11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A5A958525A705F400114E11 /* Assets.xcassets */; };
+		5A5A958925A705F400114E11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A5A958725A705F400114E11 /* LaunchScreen.storyboard */; };
+		5A5A959425A705F400114E11 /* LyrikzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5A959325A705F400114E11 /* LyrikzTests.swift */; };
+		5A5A959F25A705F400114E11 /* LyrikzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5A959E25A705F400114E11 /* LyrikzUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A5A959025A705F400114E11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A5A957125A705F300114E11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A5A957825A705F300114E11;
+			remoteInfo = Lyrikz;
+		};
+		5A5A959B25A705F400114E11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A5A957125A705F300114E11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A5A957825A705F300114E11;
+			remoteInfo = Lyrikz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A5A957925A705F300114E11 /* Lyrikz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lyrikz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A5A957C25A705F300114E11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5A5A957E25A705F300114E11 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5A5A958025A705F300114E11 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5A5A958325A705F300114E11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A5A958525A705F400114E11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A5A958825A705F400114E11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A5A958A25A705F400114E11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A5A958F25A705F400114E11 /* LyrikzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LyrikzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A5A959325A705F400114E11 /* LyrikzTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyrikzTests.swift; sourceTree = "<group>"; };
+		5A5A959525A705F400114E11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A5A959A25A705F400114E11 /* LyrikzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LyrikzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A5A959E25A705F400114E11 /* LyrikzUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyrikzUITests.swift; sourceTree = "<group>"; };
+		5A5A95A025A705F400114E11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A5A957625A705F300114E11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A5A958C25A705F400114E11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A5A959725A705F400114E11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A5A957025A705F300114E11 = {
+			isa = PBXGroup;
+			children = (
+				5A5A957B25A705F300114E11 /* Lyrikz */,
+				5A5A959225A705F400114E11 /* LyrikzTests */,
+				5A5A959D25A705F400114E11 /* LyrikzUITests */,
+				5A5A957A25A705F300114E11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A5A957A25A705F300114E11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A5A957925A705F300114E11 /* Lyrikz.app */,
+				5A5A958F25A705F400114E11 /* LyrikzTests.xctest */,
+				5A5A959A25A705F400114E11 /* LyrikzUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A5A957B25A705F300114E11 /* Lyrikz */ = {
+			isa = PBXGroup;
+			children = (
+				5A5A957C25A705F300114E11 /* AppDelegate.swift */,
+				5A5A957E25A705F300114E11 /* SceneDelegate.swift */,
+				5A5A958025A705F300114E11 /* ViewController.swift */,
+				5A5A958225A705F300114E11 /* Main.storyboard */,
+				5A5A958525A705F400114E11 /* Assets.xcassets */,
+				5A5A958725A705F400114E11 /* LaunchScreen.storyboard */,
+				5A5A958A25A705F400114E11 /* Info.plist */,
+			);
+			path = Lyrikz;
+			sourceTree = "<group>";
+		};
+		5A5A959225A705F400114E11 /* LyrikzTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A5A959325A705F400114E11 /* LyrikzTests.swift */,
+				5A5A959525A705F400114E11 /* Info.plist */,
+			);
+			path = LyrikzTests;
+			sourceTree = "<group>";
+		};
+		5A5A959D25A705F400114E11 /* LyrikzUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A5A959E25A705F400114E11 /* LyrikzUITests.swift */,
+				5A5A95A025A705F400114E11 /* Info.plist */,
+			);
+			path = LyrikzUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A5A957825A705F300114E11 /* Lyrikz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A5A95A325A705F400114E11 /* Build configuration list for PBXNativeTarget "Lyrikz" */;
+			buildPhases = (
+				5A5A957525A705F300114E11 /* Sources */,
+				5A5A957625A705F300114E11 /* Frameworks */,
+				5A5A957725A705F300114E11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lyrikz;
+			productName = Lyrikz;
+			productReference = 5A5A957925A705F300114E11 /* Lyrikz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A5A958E25A705F400114E11 /* LyrikzTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A5A95A625A705F400114E11 /* Build configuration list for PBXNativeTarget "LyrikzTests" */;
+			buildPhases = (
+				5A5A958B25A705F400114E11 /* Sources */,
+				5A5A958C25A705F400114E11 /* Frameworks */,
+				5A5A958D25A705F400114E11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A5A959125A705F400114E11 /* PBXTargetDependency */,
+			);
+			name = LyrikzTests;
+			productName = LyrikzTests;
+			productReference = 5A5A958F25A705F400114E11 /* LyrikzTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A5A959925A705F400114E11 /* LyrikzUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A5A95A925A705F400114E11 /* Build configuration list for PBXNativeTarget "LyrikzUITests" */;
+			buildPhases = (
+				5A5A959625A705F400114E11 /* Sources */,
+				5A5A959725A705F400114E11 /* Frameworks */,
+				5A5A959825A705F400114E11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A5A959C25A705F400114E11 /* PBXTargetDependency */,
+			);
+			name = LyrikzUITests;
+			productName = LyrikzUITests;
+			productReference = 5A5A959A25A705F400114E11 /* LyrikzUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A5A957125A705F300114E11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					5A5A957825A705F300114E11 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					5A5A958E25A705F400114E11 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 5A5A957825A705F300114E11;
+					};
+					5A5A959925A705F400114E11 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 5A5A957825A705F300114E11;
+					};
+				};
+			};
+			buildConfigurationList = 5A5A957425A705F300114E11 /* Build configuration list for PBXProject "Lyrikz" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A5A957025A705F300114E11;
+			productRefGroup = 5A5A957A25A705F300114E11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A5A957825A705F300114E11 /* Lyrikz */,
+				5A5A958E25A705F400114E11 /* LyrikzTests */,
+				5A5A959925A705F400114E11 /* LyrikzUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A5A957725A705F300114E11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A5A958925A705F400114E11 /* LaunchScreen.storyboard in Resources */,
+				5A5A958625A705F400114E11 /* Assets.xcassets in Resources */,
+				5A5A958425A705F300114E11 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A5A958D25A705F400114E11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A5A959825A705F400114E11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A5A957525A705F300114E11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A5A958125A705F300114E11 /* ViewController.swift in Sources */,
+				5A5A957D25A705F300114E11 /* AppDelegate.swift in Sources */,
+				5A5A957F25A705F300114E11 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A5A958B25A705F400114E11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A5A959425A705F400114E11 /* LyrikzTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A5A959625A705F400114E11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A5A959F25A705F400114E11 /* LyrikzUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A5A959125A705F400114E11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A5A957825A705F300114E11 /* Lyrikz */;
+			targetProxy = 5A5A959025A705F400114E11 /* PBXContainerItemProxy */;
+		};
+		5A5A959C25A705F400114E11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A5A957825A705F300114E11 /* Lyrikz */;
+			targetProxy = 5A5A959B25A705F400114E11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A5A958225A705F300114E11 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A5A958325A705F300114E11 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A5A958725A705F400114E11 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A5A958825A705F400114E11 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A5A95A125A705F400114E11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5A5A95A225A705F400114E11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A5A95A425A705F400114E11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Lyrikz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.coding.Lyrikz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A5A95A525A705F400114E11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Lyrikz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.coding.Lyrikz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5A5A95A725A705F400114E11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LyrikzTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.coding.LyrikzTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lyrikz.app/Lyrikz";
+			};
+			name = Debug;
+		};
+		5A5A95A825A705F400114E11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LyrikzTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.coding.LyrikzTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lyrikz.app/Lyrikz";
+			};
+			name = Release;
+		};
+		5A5A95AA25A705F400114E11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LyrikzUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.coding.LyrikzUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lyrikz;
+			};
+			name = Debug;
+		};
+		5A5A95AB25A705F400114E11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LyrikzUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.coding.LyrikzUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lyrikz;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A5A957425A705F300114E11 /* Build configuration list for PBXProject "Lyrikz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A5A95A125A705F400114E11 /* Debug */,
+				5A5A95A225A705F400114E11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A5A95A325A705F400114E11 /* Build configuration list for PBXNativeTarget "Lyrikz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A5A95A425A705F400114E11 /* Debug */,
+				5A5A95A525A705F400114E11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A5A95A625A705F400114E11 /* Build configuration list for PBXNativeTarget "LyrikzTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A5A95A725A705F400114E11 /* Debug */,
+				5A5A95A825A705F400114E11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A5A95A925A705F400114E11 /* Build configuration list for PBXNativeTarget "LyrikzUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A5A95AA25A705F400114E11 /* Debug */,
+				5A5A95AB25A705F400114E11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A5A957125A705F300114E11 /* Project object */;
+}
